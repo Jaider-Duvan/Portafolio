@@ -1,6 +1,6 @@
 
 .contenido_menu{
-    background-color: #AAB7B8 ;
+    background-color: #7D7C7C ;
     display: flex;    
     position: fixed;
     width: 100%;
@@ -14,21 +14,20 @@
     align-items: center;
     list-style: none;
     gap: 80px;
-    font-size: 25px;
     
 }
+
 .menu a {
     text-decoration: none;
-    color: rgb(3, 3, 3);
+    color: #F1EFEF;
     align-items: center;
+    font-size: 19px;
 }
-
 .menu a:hover {
     color: black;
-    background-color: white;
+    background-color: #CCC8AA;
     border-radius: 10px;
     padding: 5px;
-    font-size: 28px;
+    font-size: 26px;
 }
-
 
