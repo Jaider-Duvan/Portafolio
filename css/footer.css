@@ -1,0 +1,18 @@
+
+.pie_de_pagina{
+    border-top: 1.2px black solid;
+    background-color: #CABFAB ;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    bottom: 0;
+}
+
+.logo-in {
+    width: 50px;
+    height: 50px;
+    border: 2px black solid;
+    border-radius: 50%;
+}

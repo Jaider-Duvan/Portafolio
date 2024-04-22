@@ -1,6 +1,6 @@
 body{
-    background-color: #191717;
-    color: #F1EFEF;
+    background-color: #CABFAB ;
+    color: #000000;
 }
 /* Seccion sobre mi */
 .sobre_mi{
@@ -16,6 +16,8 @@ body{
     height: 450px;
     margin-left: 50px;
     margin-right: 50px;
+    background-color: #41444B;
+    border-radius: 50%;
  }
 
 .text-container {
@@ -52,6 +54,8 @@ body{
     padding: 20px;
     margin: 20px;
     align-items: center;
+    flex-grow: 1;
+    flex-basis: 200;
 }
 
 .Skills img{
@@ -63,5 +67,75 @@ body{
     text-align: center  ;
 }
 
+/*  Estilos Curriculum */
 
+.contenido_cv h1{
+    font-size: 90PX;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.contenido_cv_texto h2 {
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.contenido_cv_texto h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+.contenido_cv_texto{
+    flex-wrap: wrap;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+.Experiencia{
+    line-height: 1.5;
+    margin-top: 30px;
+    border: 1.5px black dashed;
+    border-radius: 10px;
+    text-align: center;
+    padding: 18px;
+    background-color:#DFD8C8;
+}
+.descripcion_exp{
+    font-size: 18px;
+}
+
+/* Formacion academica */
+
+.contenido_academico {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.contenido_academico h2{
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.descripcion_aca img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+}
+.Academia{
+    text-align: center;
+    padding: 20px;
+    line-height: 1.5;
+    background-color: #DFD8C8;
+    margin-top: 7px;
+    border-radius: 10px;
+    font-size: 20px;
+}
 
