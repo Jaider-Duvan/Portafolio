@@ -3,160 +3,232 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width"> 
+    <meta name="viewport" content="width=device-width">
     <title>Jaider Montaña</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/footer.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+
 <body>
     <!-- Inicio Menu -->
-<header>
-    <nav class="contenido_menu">
-                
-        <ul class="menu">
-            <li id="TituloPagina">
-                <h1><a href="index.html"> <b>Jaider Duvan Montaña Gañan</b></a> </h1>
-            </li>
-            <li>
-                <a href="#sobre_mi">Sobre mi</a> 
-            </li>
-            <li>
-                <a href="#Skills">Skills</a> 
-            </li>
-            <li>
-                <a href="Contactocv.html">Proyectos</a> 
-            </li>
-            <li> 
-                <a href="Curriculum.html">Curriculum</a>
-            </li>
-            <li>
-                <a href="Proyecto.html">Contacto</a> 
-            </li>
-            
-        </ul>
-    </nav>
-</header>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#sobre_mi">Sobre mi</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#formacion">Formacion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active " href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active " href="Contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <a class="nav-link active " href="index.html">Jaider Duvan Montaña </a>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
     <!-- Fin menu -->
 
     <!--  seccion sobre mi  -->
     <main>
-        <section class="sobre_mi" id="sobre_mi">
-            <div class="image-container">
-                <img src="Imagenes/perfil.png" alt="Foto de perfil" class="fotoperfil">
-            </div>
-            <div class="text-container">
-                <h1 class="titulo">Sobre mi</h1>
-                <p class="descripcion">
-                    Hola, soy Duvan Montaña.
-                    Actualmente estoy cursando la carrera de Tecnología en Desarrollo de Software,
-                     donde he descubierto mi pasión por la programación y el desarrollo de soluciones innovadoras. 
-                     Además de mi interés por la tecnología, disfruto del deporte y de pasar tiempo al aire libre, 
-                     conectándome con la naturaleza. Estoy comprometido con aprender y crecer en este emocionante campo, 
-                     explorando nuevas oportunidades y desafiándome a mí mismo continuamente.
-                </p>
-            </div>
-        </section>
+        <div class="container">
+            <section class="sobre_mi" id="sobre_mi">
+                <div class="image-container">
+                    <img src="Imagenes/perfil.png" alt="Foto de perfil" class="fotoperfil">
+                </div>
+                <div class="text-container">
+                    <h1 class="titulo">Sobre mi</h1>
+                    <p class="descripcion">
+                        Hola, soy Duvan Montaña.
+                        Actualmente estoy cursando la carrera de Tecnología en Desarrollo de Software,
+                        donde he descubierto mi pasión por la programación y el desarrollo de soluciones innovadoras.
+                        Además de mi interés por la tecnología, disfruto del deporte y de pasar tiempo al aire libre,
+                        conectándome con la naturaleza. Estoy comprometido con aprender y crecer en este emocionante
+                        campo,
+                        explorando nuevas oportunidades y desafiándome a mí mismo continuamente.
+                    </p>
+                </div>
+            </section>
+        </div>
         <!-- Fin seccion sobre mi -->
 
         <!-- Inicio seccion Skills -->
 
-       <div class="container_skills" id="Skills">
+        <div class="container_skills" id="Skills">
+            <div class="container  p-5">
+                <section class=" Skills">
+                    <h1> Mis Skills</h1>
 
-        <section class=" Skills">
-            <h1> Mis Skills</h1>
+                    <article class="mis_skills">
+                        <img src="./Imagenes/html-5.png">
+                        <div class="info_skills">
+                            <p> <b>HTML</b></p>
+                        </div>
+                    </article>
 
-            <article class="mis_skills">
-                <img src="./Imagenes/html-5.png">
-                <div class="info_skills">
-                    <p> <b>HTML</b></p>
-                </div>
-            </article>
+                    <article class="mis_skills">
+                        <img src="./Imagenes/css-3.png">
+                        <div class="info_skills">
+                            <p> <b>CSS</b></p>
+                        </div>
+                    </article>
 
-            <article class="mis_skills">
-                <img src="./Imagenes/css-3.png">
-                <div class="info_skills">
-                    <p> <b>CSS</b></p>
-                </div>
-            </article>
+                    <article class="mis_skills">
+                        <img src="./Imagenes/js.png">
+                        <div class="info_skills">
+                            <p> <b>JavaScript</b></p>
+                        </div>
+                    </article>
 
-            <article class="mis_skills">
-                <img src="./Imagenes/js.png">
-                <div class="info_skills">
-                    <p> <b>JavaScript</b></p>
-                </div>
-            </article>
-            
-            <article class="mis_skills">
-                <img src="./Imagenes/mysql.png">
-                <div class="info_skills">
-                    <p> <b>Mysql</b></p>
-                </div>
-            </article>
-            
+                    <article class="mis_skills">
+                        <img src="./Imagenes/mysql.png">
+                        <div class="info_skills">
+                            <p> <b>Mysql</b></p>
+                        </div>
+                    </article>
 
-        </section>
-        <section class=" Skills">
-            <h1> Habilidades Blandas</h1>
 
-            <article class="mis_skills">
-                <img src="./Imagenes/adaptation.png">
-                <div class="info_skills">
-                    <p> <b>adaptation</b></p>
-                </div>
-            </article>
+                </section>
+                <section class=" Skills">
+                    <h1> Habilidades Blandas</h1>
 
-            <article class="mis_skills">
-                <img src="./Imagenes/comunicacion_Acertiva.png">
-                <div class="info_skills">
-                    <p> <b>comunicacion acertiva</b></p>
-                </div>
-            </article>
+                    <article class="mis_skills">
+                        <img src="./Imagenes/adaptation.png">
+                        <div class="info_skills">
+                            <p> <b>Adaptation</b></p>
+                        </div>
+                    </article>
 
-            <article class="mis_skills">
-                <img src="./Imagenes/Gestion_del_tiempo.png">
-                <div class="info_skills">
-                    <p> <b>Gestion correcta del tiempo</b></p>
-                </div>
-            </article>
-            
-            <article class="mis_skills">
-                <img src="./Imagenes/Liderazgo.png">
-                <div class="info_skills">
-                    <p> <b>Liderazgo</b></p>
-                </div>
-            </article>
+                    <article class="mis_skills">
+                        <img src="./Imagenes/comunicacion_Acertiva.png">
+                        <div class="info_skills">
+                            <p> <b>Comunicacion Acertiva</b></p>
+                        </div>
+                    </article>
 
-            <article class="mis_skills">
-                <img src="./Imagenes/Pensamiento_Creativo.png">
-                <div class="info_skills">
-                    <p> <b>Pensamiento creativo</b></p>
-                </div>
-            </article>
+                    <article class="mis_skills">
+                        <img src="./Imagenes/Gestion_del_tiempo.png">
+                        <div class="info_skills">
+                            <p> <b>Gestion correcta del tiempo</b></p>
+                        </div>
+                    </article>
 
-            <article class="mis_skills">
-                <img src="./Imagenes/teamwork.png">
-                <div class="info_skills">
-                    <p> <b>Trabajo en equipo</b></p>
-                </div>
-            </article>
+                    <article class="mis_skills">
+                        <img src="./Imagenes/Liderazgo.png">
+                        <div class="info_skills">
+                            <p> <b>Liderazgo</b></p>
+                        </div>
+                    </article>
 
-        </section>
-    </div>
-        
+                    <article class="mis_skills">
+                        <img src="./Imagenes/Pensamiento_Creativo.png">
+                        <div class="info_skills">
+                            <p> <b>Pensamiento Creativo</b></p>
+                        </div>
+                    </article>
 
+                    <article class="mis_skills">
+                        <img src="./Imagenes/teamwork.png">
+                        <div class="info_skills">
+                            <p> <b>Trabajo en equipo</b></p>
+                        </div>
+                    </article>
+
+                    <article class="mis_skills">
+                        <img src="./Imagenes/pensamientoCritico.png">
+                        <div class="info_skills">
+                            <p> <b>Pensamiento Critico</b></p>
+                        </div>
+                    </article>
+
+                </section>
     </main>
     <!-- Fin del contenido -->
-    <footer>
-        <div class="pie_de_pagina">
 
-            <a href="https://www.linkedin.com/in/duvan-monta%C3%B1a/"> 
-                <img class="logo-in" src="Imagenes/linkedin.png" alt="Logo de linkedin"></a>
+    <!-- inicio seccion formacion -->
+
+    <div class="container " id="formacion">
+        <h1 class="text-center mt-4 mb-5"> Formacion Academica </h1>
+        <div class="container">
+            <div class="contenido_cv">
+                <div class="contenido_academico">
+                    <section class="Academia">
+                        <h3>Universidad Antonio Nariño</h3>
+                        <h5>Actualmente cursando</h5>
+                        <ul class="descripcion_aca">
+                            <li><img src="Imagenes/uan.png" alt="Logo uan"></li>
+                            <li>Tecnologia en construcción de software</li>
+                        </ul>
+                    </section>
+                    <section class="Academia">
+                        <h3>Alura LATAM</h3>
+                        <h5>Actualmente cursando</h5>
+                        <ul class="descripcion_aca">
+                            <li><img src="Imagenes/alura_latam_logo.jpg" alt="Logo alura"></li>
+                            <li>Desarrollador Front-End</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+
 
         </div>
-    </footer> 
+        <!-- Fin seccion formacion -->
 
-    
+        <!-- Seccion proyectos  -->
+        <div class="container " id="proyectos">
+            <h1 class="text-center mt-5 mb-5"> Proyectos </h1 <div class="container">
+            <div class="contenido_cv">
+                <div class="contenido_academico ">
+                    <section class="Academia encriptador">
+                        <h3>Enciptador de texto</h3>
+                        <ul class="descripcion_aca">
+                            <li><img src="Imagenes/Encriptador.png" alt="Encriptador de texto" style="width: 400px; height: 400px;"></li>
+                            <a class="nav-link active " href="https://jaider-duvan.github.io/Encriptador_De_Texto/">Ver Demo</a>
+                            <a class="nav-link active " href="https://github.com/Jaider-Duvan/Encriptador_De_Texto.git">Repositorio</a>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+        <!-- fin seccion de proyectos  -->
+
+
+
+
+        </main>
+        <!-- Fin del contenido -->
+        <footer>
+            <div class="pie_de_pagina">
+
+                <a href="https://www.linkedin.com/in/duvan-monta%C3%B1a/">
+                    <img class="logo-in" src="Imagenes/linkedin.png" alt="Logo de linkedin"></a>
+
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>
